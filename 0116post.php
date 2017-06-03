@@ -19,7 +19,7 @@
     <tr>
       <td>运算符</td>
       <td>
-        <select name="op">
+        <select name="op">'这是我的演示代码'
           <option value="0">--请选择运算符--</option>
           <option value="@" <?php if(isset($_GET['op'])){echo $_GET['op']=="@"?"selected":"";}?>>+</option>
           <option value="-" <?php if(isset($_GET['op'])){echo $_GET['op']=="-"?"selected":"";}?>>-</option>
